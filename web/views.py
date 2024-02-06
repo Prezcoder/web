@@ -6,3 +6,5 @@ def game(request):
 
 def home(request):
 	return HttpResponse("Hello, world. You're at the home index.")
+
+//test
