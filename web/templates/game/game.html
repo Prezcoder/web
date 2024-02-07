@@ -7,8 +7,9 @@
 		<h1>Games</h1>
 		<ul>
 			{% for game in game %}
-				<li>{{game.title}}</li>
+				<li><a href={{game.id}}>{{game.title}}</a></li>
 			{% endfor %}
 		</ul>
+		<a href="/game/add">Add a new game</a>
 	</body>
 </html>
